@@ -29,7 +29,7 @@ while True:
                 base.clear()
                 break
             try:
-                if not bool(list(prolog.question(question))):
+                if not bool(list(prolog.query(question))):
                     print("No")
             except:
                 print("question is incorrect")
